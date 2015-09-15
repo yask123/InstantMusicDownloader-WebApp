@@ -44,9 +44,10 @@
       </div>
     </div>
   </div>
-      <input type="text" name="music" value="" placeholder="Type Songname, artist name, lyrics.. whatever!">
         <form method="POST">
         {% csrf_token %}
+              <input type="text" name="music" value="" placeholder="Type Songname, artist name, lyrics.. whatever!">
+
   <button  id="butt" class="btn waves-effect waves-light" type="submit" name="action">Download
     <i class="material-icons right">send</i>
   </button>
